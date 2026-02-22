@@ -77,12 +77,12 @@ export default function App() {
           <div className="mx-auto inline-flex items-center gap-2 rounded-full border border-stone-200/70 bg-white/70 px-4 py-2 shadow-[0_8px_18px_rgba(0,0,0,0.06)]">
             <span className="text-xl">🧶</span>
             <span className="text-sm font-semibold tracking-wide text-stone-700">
-              Strikkeverktøy
+              Mine strikkeverktøy
             </span>
           </div>
 
           <h1 className="mt-4 text-3xl font-semibold tracking-tight">
-            Kos deg med strikkinga
+            Kos deg med strikkinga 💛
           </h1>
           <p className="mt-2 text-stone-700">
             Omganger, felling og prosjekt – samla på ein stad.
@@ -143,10 +143,6 @@ export default function App() {
                 +
               </button>
             </div>
-
-            <p className="mt-4 text-sm text-stone-600">
-              Tips: Teljaren går aldri under 0 – så det er trygt å rette opp 😊
-            </p>
           </section>
         )}
 
