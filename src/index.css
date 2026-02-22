@@ -1,0 +1,40 @@
+@import "tailwindcss";
+body {
+  font-family: "Quicksand", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+h1,
+h2,
+h3 {
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+/* Kos nivå 10: varm bakgrunn + subtilt "strikkemønster" */
+.knit-bg {
+  background-color: #fff7ed; /* varm krem (amber-50-ish) */
+  background-image:
+    /* “V”-masker/zigzag */
+    repeating-linear-gradient(
+      135deg,
+      rgba(244, 63, 94, 0.06) 0px,
+      /* rose */ rgba(244, 63, 94, 0.06) 2px,
+      transparent 2px,
+      transparent 12px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgba(251, 191, 36, 0.05) 0px,
+      /* amber */ rgba(251, 191, 36, 0.05) 2px,
+      transparent 2px,
+      transparent 14px
+    );
+  background-size:
+    28px 28px,
+    34px 34px;
+}
+
+/* Bonus: litt mjukare typografi */
+body {
+  -webkit-font-smoothing: antialiased;
+}
