@@ -75,7 +75,6 @@ export default function App() {
 
         <header className="text-center">
           <div className="mx-auto inline-flex items-center gap-2 rounded-full border border-stone-200/70 bg-white/70 px-4 py-2 shadow-[0_8px_18px_rgba(0,0,0,0.06)]">
-            <span className="text-xl">🧶</span>
             <span className="text-sm font-semibold tracking-wide text-stone-700">
               Mine strikkeverktøy
             </span>
