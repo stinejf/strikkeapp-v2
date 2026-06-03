@@ -82,7 +82,7 @@ export default function App() {
           </div>
 
           <h1 className="mt-4 text-3xl font-semibold tracking-tight">
-            Kos deg med strikkinga 💛
+            Kos deg med strikkinga!
           </h1>
           <p className="mt-2 text-stone-700">
             Omganger, felling og prosjekt – samla på ein stad.
@@ -100,7 +100,7 @@ export default function App() {
 
         {/* COUNTER */}
         {tab === "counter" && (
-          <section className="mt-8 rounded-[2rem] border border-stone-200/70 bg-white/75 p-6 shadow-[0_12px_30px_rgba(0,0,0,0.06)]">
+          <section className="mt-8 rounded-4xl border border-stone-200/70 bg-white/75 p-6 shadow-[0_12px_30px_rgba(0,0,0,0.06)]">
             <div className="flex items-center justify-between">
               <h2 className="text-sm font-semibold text-stone-700">Omganger</h2>
 
@@ -113,7 +113,7 @@ export default function App() {
               </button>
             </div>
 
-            <div className="mt-5 rounded-[2rem] bg-gradient-to-b from-white/80 to-amber-50/70 p-6 text-center border border-stone-200/60 shadow-[inset_0_1px_0_rgba(255,255,255,0.9)]">
+            <div className="mt-5 rounded-4xl bg-linear-to-b from-white/80 to-amber-50/70 p-6 text-center border border-stone-200/60 shadow-[inset_0_1px_0_rgba(255,255,255,0.9)]">
               <div className="text-xs uppercase tracking-wide text-stone-500">
                 Teller
               </div>
